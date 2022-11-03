@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif
+
+}
+header{
+    background-image: url('https://image.freepik.com/vector-gratis/fondo-pantalla-panaderia-patron_91413-73.jpg');
+    height: 200px;
+    width: 100%;
+    
+}
+header img{
+    height: 210px;
+    position: absolute;
+    left: 20px;
+    top: 25px;
+}
+header h1 {
+    
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 80px;
+    color: #494306;
+    
+    
+    
+}
+header nav {
+    position: absolute;
+    left: 83%;
+    top: 30px;
+    
+    
+}
+header button{
+    background-color: #ca9503;
+    font-size: 34px;
+    
+    border-width: 6px;
+    border-color: white;
+    margin-right: 20px;
+    color: #ffffff;
+   
+    
+    
+    
+    
+}
+.center {
+    background-image: url('https://www.mf-web.net/wp-content/uploads/2016/05/%D8%AA%D9%88%D8%B1%D8%AA%D8%A9-%D8%B9%D9%8A%D8%AF-%D8%A7%D9%84%D9%85%D9%8A%D9%84%D8%A7%D8%AF.jpg' );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    height: 700px;
+    
+    position: relative;
+}
+.center h1 {
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    top: 20px;
+    background-color: #ca9503;
+}
+.center h2 {
+    text-align: center;
+    color: #f93903;
+    position: relative;
+    top: 530px;
+    background-color: #ca9503;
+
+}
+
+
+
+footer{
+    background-image: url('https://image.freepik.com/vector-gratis/fondo-pantalla-panaderia-patron_91413-73.jpg');
+    height: 190px;
+    width: 100%;
+    position: relative;
+
+}
+footer h1{
+    text-align: center;
+    color: #494306;
+    
+}
+footer h2 {
+    text-align: center;
+    text-decoration: overline black;
+   
+    color: #494306;
+}
+footer h3{
+    text-align: center;
+    color: black;
+    text-decoration:overline black;
+    background-color: #ffffff;
+}

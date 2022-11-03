@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif
+
+}
+header{
+    background-image: url('https://image.freepik.com/vector-gratis/fondo-pantalla-panaderia-patron_91413-73.jpg');
+    height: 200px;
+    width: 100%;
+}
+header img{
+    height: 210px;
+    position: absolute;
+    left: 20px;
+    top: 25px;
+}
+header h1 {
+    
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 80px;
+    color: #494306;
+    
+    
+    
+}
+header nav {
+    position: absolute;
+    left: 83%;
+    top: 30px;
+    
+    
+}
+header button{
+    background-color: #ca9503;
+    font-size: 34px;
+    
+    border-width: 6px;
+    border-color: white;
+    margin-right: 20px;
+    color: #ffffff; 
+}
+
+
+.center {
+    background-color: #ca9503;
+
+}
+.center img {
+    width: 250px;
+    height: 250px;
+    border-radius: 23px;
+}
+.center .menu{
+    background-image: url('https://shop.r10s.jp/twoleaf/cabinet/01482431/05131842/imgrc0079043641.jpg');
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.center #f1{
+    height: 350px;
+    width: 250px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-left: 20px;
+    right: -20px;
+    border-color: chocolate;
+    border-width: 8px;
+    border-style: solid;
+    border-radius: 32px;
+    align-self: center;
+    
+}
+.center #f1 h2 {
+    text-align: center;
+}
+.center #f1 h3{
+    text-align: center;
+}
+
+/*estilos para estiquetas*/
+
+
+.etiqueta {
+    background-color: #ca9503;
+
+}
+.etiqueta img {
+    width: 250px;
+    height: 250px;
+    border-radius: 23px;
+}
+.etiqueta .menu{
+    background-image: url('https://shop.r10s.jp/twoleaf/cabinet/01482431/05131842/imgrc0079043641.jpg');
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.etiqueta #f1{
+    height: 350px;
+    width: 250px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-left: 20px;
+    right: -20px;
+    border-color: chocolate;
+    border-width: 8px;
+    border-style: solid;
+    border-radius: 32px;
+    align-self: center;
+    
+}
+.etiqueta #f1 h2 {
+    text-align: center;
+}
+.etiqueta #f1 h3{
+    text-align: center;
+}
