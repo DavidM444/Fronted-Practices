@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -43,12 +44,17 @@ header button{
     margin-right: 20px;
     color: #ffffff; 
 }
+header button:hover {
+    background-color: rgb(255, 248, 248);
+    color: #000000;
+}
 
 
 .center {
     background-color: #ca9503;
 
 }
+
 .center img {
     width: 250px;
     height: 250px;
@@ -124,4 +130,95 @@ header button{
 }
 .etiqueta #f1 h3{
     text-align: center;
+}
+
+.orden {
+    
+    position: relative;
+    background-color: #ca9503;
+    
+}
+.form {
+    background-image: url('https://i.pinimg.com/736x/8d/40/24/8d40247a3121c7017077fea8c8ada753.jpg');
+    position:relative;
+    border-radius: 20px;
+    top: 20px;
+    left: 170px;
+    width: 80%;
+    height: 1240px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.form #f1 {
+    margin: 0 auto;
+    position: relative;
+    left: 50px;
+    font-size: 25px;
+    color: #ffffff;
+    
+}
+.form #f2 input {
+    font-size: 18px;
+}
+   
+.form #f1 h2 {
+    color: #5e2c06;
+    text-shadow: 2px 2px 4px #d5b112;
+}
+
+.form #f2 {
+    position: relative;
+    left: 100px;
+    font-size: 25px;
+    color: #ffffff;
+    
+}
+.form h2{
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 10px;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+.form h1 {
+    color: darkred;
+    position:relative;
+    left: 300px;
+    font-size: 35px;
+    width: 600px;
+    text-shadow: 2px 2px 4px #d5b112;
+}
+.form button {
+    font-size: 30px;
+    left: 110px;
+    top: 10px;
+    position: relative;
+    background-color: darkred;
+    color: #ffffff;
+    border-radius: 20px;
+
+}
+
+footer {
+    
+    position:relative;
+    top: 50px;
+    background-color: #ca9503;
+}
+footer h1 {
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+    color: white;
+}
+p {
+    background-color: rgb(253, 253, 253);
+    font-size: 25px;
+    top: 30px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px #d5b112;
+   
 }
