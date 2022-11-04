@@ -6,7 +6,7 @@
 
 }
 header{
-    background-image: url('https://image.freepik.com/vector-gratis/fondo-pantalla-panaderia-patron_91413-73.jpg');
+    background-image: url('./assets/f1.webp');
     height: 200px;
     width: 100%;
     
@@ -50,7 +50,7 @@ header button{
     
 }
 .center {
-    background-image: url('https://www.mf-web.net/wp-content/uploads/2016/05/%D8%AA%D9%88%D8%B1%D8%AA%D8%A9-%D8%B9%D9%8A%D8%AF-%D8%A7%D9%84%D9%85%D9%8A%D9%84%D8%A7%D8%AF.jpg' );
+    background-image: url('./assets/f2.jpg' );
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -78,7 +78,7 @@ header button{
 
 
 footer{
-    background-image: url('https://image.freepik.com/vector-gratis/fondo-pantalla-panaderia-patron_91413-73.jpg');
+    background-image: url(./assets/f1.webp);
     height: 190px;
     width: 100%;
     position: relative;

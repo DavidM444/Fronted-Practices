@@ -3,47 +3,45 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'Poppins', sans-serif
-
+    font-family: 'Poppins', sans-serif;
 }
-header{
-    background-image: url('https://image.freepik.com/vector-gratis/fondo-pantalla-panaderia-patron_91413-73.jpg');
+
+header {
+    background-image: url('./assets/f1.webp');
     height: 200px;
     width: 100%;
 }
+
 header img{
     height: 210px;
     position: absolute;
     left: 20px;
     top: 25px;
 }
-header h1 {
-    
+
+header h1 {  
     text-align: center;
     position: relative;
     top: 50px;
     font-size: 80px;
-    color: #494306;
-    
-    
-    
+    color: #494306; 
 }
+
 header nav {
     position: absolute;
     left: 83%;
     top: 30px;
-    
-    
 }
+
 header button{
     background-color: #ca9503;
     font-size: 34px;
-    
     border-width: 6px;
     border-color: white;
     margin-right: 20px;
     color: #ffffff; 
 }
+
 header button:hover {
     background-color: rgb(255, 248, 248);
     color: #000000;
@@ -60,15 +58,16 @@ header button:hover {
     height: 250px;
     border-radius: 23px;
 }
-.center .menu{
-    background-image: url('https://shop.r10s.jp/twoleaf/cabinet/01482431/05131842/imgrc0079043641.jpg');
+
+.center .menu {
+    background-image: url('./assets/f3.jpg');
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-
 }
-.center #f1{
+
+.center #f1 {
     height: 350px;
     width: 250px;
     position: relative;
@@ -81,11 +80,12 @@ header button:hover {
     border-style: solid;
     border-radius: 32px;
     align-self: center;
-    
 }
+
 .center #f1 h2 {
     text-align: center;
 }
+
 .center #f1 h3{
     text-align: center;
 }
@@ -97,20 +97,23 @@ header button:hover {
     background-color: #ca9503;
 
 }
+
 .etiqueta img {
     width: 250px;
     height: 250px;
     border-radius: 23px;
 }
-.etiqueta .menu{
-    background-image: url('https://shop.r10s.jp/twoleaf/cabinet/01482431/05131842/imgrc0079043641.jpg');
+
+.etiqueta .menu {
+    background-image: url('./assets/f3.jpg');
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 
 }
-.etiqueta #f1{
+
+.etiqueta #f1 {
     height: 350px;
     width: 250px;
     position: relative;
@@ -123,23 +126,23 @@ header button:hover {
     border-style: solid;
     border-radius: 32px;
     align-self: center;
-    
 }
+
 .etiqueta #f1 h2 {
     text-align: center;
 }
-.etiqueta #f1 h3{
+
+.etiqueta #f1 h3 {
     text-align: center;
 }
 
 .orden {
-    
     position: relative;
-    background-color: #ca9503;
-    
+    background-color: #fffefb;
 }
+
 .form {
-    background-image: url('https://i.pinimg.com/736x/8d/40/24/8d40247a3121c7017077fea8c8ada753.jpg');
+    background-image: url('./assets/f5.jpg');
     position:relative;
     border-radius: 20px;
     top: 20px;
@@ -157,7 +160,6 @@ header button:hover {
     left: 50px;
     font-size: 25px;
     color: #ffffff;
-    
 }
 .form #f2 input {
     font-size: 18px;
@@ -175,12 +177,11 @@ header button:hover {
     color: #ffffff;
     
 }
-.form h2{
+.form h2 {
     color: rgb(255, 255, 255);
     position: relative;
     left: 10px;
     text-shadow: 2px 2px 4px #000000;
-
 }
 .form h1 {
     color: darkred;
@@ -190,6 +191,7 @@ header button:hover {
     width: 600px;
     text-shadow: 2px 2px 4px #d5b112;
 }
+
 .form button {
     font-size: 30px;
     left: 110px;
@@ -198,21 +200,21 @@ header button:hover {
     background-color: darkred;
     color: #ffffff;
     border-radius: 20px;
-
 }
 
 footer {
-    
     position:relative;
     top: 50px;
     background-color: #ca9503;
 }
+
 footer h1 {
     text-align: center;
     position: relative;
     font-size: 50px;
     color: white;
 }
+
 p {
     background-color: rgb(253, 253, 253);
     font-size: 25px;
@@ -220,5 +222,4 @@ p {
     position: relative;
     color: rgb(0, 0, 0);
     text-shadow: 2px 2px 4px #d5b112;
-   
 }
