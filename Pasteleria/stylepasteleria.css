@@ -5,10 +5,16 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.container {
+    max-width: 100%;
+    
+}
+
 header {
     background-image: url('./assets/f1.webp');
     height: 200px;
-    width: 100%;    
+    width: 100%;   
+    position: relative; 
 }
 
 header img {
@@ -25,10 +31,10 @@ header h1 {
     font-size: 80px;
     color: #494306;
 }
-header nav {
-    position: absolute;
-    left: 83%;
-    top: 30px;    
+header nav{
+    position: relative;
+    float: right;
+    display: flex;
 }
 
 header button {
@@ -37,7 +43,9 @@ header button {
     border-width: 6px;
     border-color: white;
     margin-right: 20px;
-    color: #ffffff;    
+    color: #ffffff;
+    position: relative;
+
 }
 .center {
     background-image: url('./assets/f2.jpg' );

@@ -95,7 +95,6 @@ header button:hover {
 
 .etiqueta {
     background-color: #ca9503;
-
 }
 
 .etiqueta img {
@@ -125,7 +124,6 @@ header button:hover {
     border-width: 8px;
     border-style: solid;
     border-radius: 32px;
-    align-self: center;
 }
 
 .etiqueta #f1 h2 {
@@ -139,23 +137,22 @@ header button:hover {
 .orden {
     position: relative;
     background-color: #fffefb;
+    display: flex;
+    align-items: center;
 }
 
 .form {
     background-image: url('./assets/f5.jpg');
-    position:relative;
+    position: static;
     border-radius: 20px;
-    top: 20px;
-    left: 170px;
     width: 80%;
-    height: 1240px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0  auto;
 }
 
 .form #f1 {
-    margin: 0 auto;
     position: relative;
     left: 50px;
     font-size: 25px;
@@ -195,9 +192,8 @@ header button:hover {
 .form button {
     font-size: 30px;
     left: 110px;
-    top: 10px;
     position: relative;
-    background-color: darkred;
+    background-color: rgb(249, 5, 5);
     color: #ffffff;
     border-radius: 20px;
 }
