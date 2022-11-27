@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+*{
+    
+    margin: 0px;
+    max-width: 0 0 0 0;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.body{
+    background-color: black;
+}
+:root{
+    --c1: #2192FF;
+    --c2:#CDFCF6;
+    --c3: #153462;
+}
+header {
+    background-color: rgb(245, 240, 240);
+    display: flex;
+}
+header h1{
+    background-color: rgb(248, 253, 253);
+    color: #2a5de9;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-left: 13%;
+    font-size: 34px;
+    height: 93px;
+}
+
+header .menu{
+    background-color: rgb(55, 221, 221);
+    position: relative;
+    display: flex;
+    margin-left: auto;
+}
+.menu ul{
+    position: relative;
+    display: flex;
+    margin-right: 90px;
+    
+}
+
+.menu ul li{
+    position: relative;
+    list-style: none;
+    
+}
+.menu ul li a{
+    display: flex;
+    margin-right: 20px;
+}
+.menu ul #menu-li {
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+.Fight-Virus{
+    display: flex;
+    background-color: rgb(232, 241, 238);
+}
+
+.Fight-Virus #first-block{
+    background-color: rgb(232, 241, 238);
+    margin-left: 13%;
+    margin-top: 7%;
+    
+}
+.Fight-Virus #first-block h1{
+    
+    color: var(--c3);
+    font-size: 72px;
+}
+.Fight-Virus #first-block p{
+    color: dimgrey;
+    font-weight:500;
+    font-size: 23px;
+
+}
+.Fight-Virus #first-block span{
+    display: flex;
+    margin-left: 3%;
+    margin-top: 10%;
+ 
+}
+.Fight-Virus #first-block span h3{
+ margin-right: 30px;
+ font-weight: 500;
+ color:#153462;
+ margin-left: 20px;
+ 
+
+ 
+}
+#first-block span h2{
+     color:#153462;
+     font-weight: 600;
+     margin-left: 30px;
+}
+
+#vs1{
+    display: flex;
+    height: 220px;
+}
+#schedule{
+    display: flex;
+    width: 58%;
+    height: 30%;
+    position:absolute;
+    background-color: #d3ede9;
+    margin: 30px;
+
+}
+#schedule #sc1{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 20px;
+    
+    
+    
+}
+#sc1 img{
+    margin-right: 10px;
+}
+#schedule #sc1 .sc2{
+    margin-right: auto;
+}
+#schedule #sc1 h2{
+    color: dimgrey;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 20px;
+   
+   
+    
+}
+#first-block #schedule h1{
+    color: var(--c3);
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+#schedule button{
+    color: aliceblue;
+    background-color: rgb(75, 14, 218);
+    height: 80px;
+    width: 200px;
+    font-weight: 500;
+    font-size: 25px;
+    border-radius: 5%;
+    margin-left: 30px;
+}
+#first-block{
+    margin-right: auto;
+}
+
+    
+
+
+
+
+
+
+
+
+
+.empresas {
+    background-color: rgb(232, 241, 238);
+    display: flex;
+    text-align: center;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.why-should{
+    background-color: rgb(232, 241, 238);
+    margin: 6%;
+    margin-left: 11%;
+    position: relative;
+}
+.why-should h1{
+    color: var(--c3);
+    font-size: 45px;
+    
+}
+.why-should p{
+    color: rgb(99, 4, 4);
+    font-size: 22px;
+    width: 45%;
+}
+.why-should .w1{
+    display: flex;
+    
+}
+.why-should .w1 h2{
+    color: var(--c3);
+    position: relative;
+}
+.why-should .w1 p{
+    color: dimgrey;
+    font-size: 18px;
+    display: flex;
+    width: auto;
+}
+.why-should .w1 .w22{
+    position: relative;
+    width: 215px;
+    margin: 20px;
+}
+.why-should .w1 .w22 h2{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+.preparations {
+    background-color: rgb(232, 241, 238);
+    display: flex;
+    margin-right: 6%;
+    margin-top: 6%;
+}
+.preparations h1{
+    color: #153462;
+    font-size: 45px;
+}
+.preparations p{
+    color: dimgrey;
+    font-size: 22px;
+}
+.preparations #f1{
+    background-color: darkred;
+}
+#prep-before .p1 p{
+    color: dimgrey;
+    font-size: 18px;
+}
+.p1 h2{
+    color: var(--c3);
+}
+#prep-before .p1{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+.Emergency-contact {
+    background-color: rgb(232, 241, 238);
+    display: flex;
+    margin: auto;
+}
+
+
+.emergency1 {
+    margin-top: 11%;
+    margin-left: 10%;
+    position: relative;
+    
+}
+.emergency1 #emr {
+    display: flex; 
+    
+    margin-top: 20%;
+    background-color: #121419;
+    height: 50%;
+    width: 40%;
+    
+}
+.emergency1 h1{
+    color: var(--c3);
+    font-size: 54px;
+   
+    
+}
+.emergency1 p{
+    margin-top: 20px;
+    color: rgb(14, 110, 11);
+    font-size: 23px;
+    width: 84%;
+}
+
+
+.emergency1 #emr .ec1{
+    
+    margin-right: 30px;
+    background-color: chartreuse;
+    margin: auto;
+    margin-left: 20%;
+    margin-top: 30px;
+    float: right;
+   
+}
+.emergency1 .ec1 h2{
+    color: var(--c3);
+    font-size: 33px;
+}
+.emergency1 .ec1 h3{
+    color: var(--c3);
+}
+.emergency1 .ec1 button{
+    color: var(--c3);
+    background-color: #75f6e5;
+    
+}
+#emergency-img{
+    margin-top: 20%;
+}
+
+
+
+
+
+.footer1 {
+    background-color: rgb(232, 241, 238);
+    display: flex;
+}
+.vacci {
+    margin: auto;
+    margin-left: 30px;
+    
+}
+.vacci h2 {
+    color: var(--c1);
+    margin-left: 30%;
+    
+}
+.vacci p{
+    color: dimgrey;
+    margin-left: 30%;
+}
+.f1l{
+    display: flexbox;
+    position: relative;
+    margin-right: 50px;
+}
+.f1l h3{
+    color: var(--c3);
+}
+.f1l h4{
+    color: dimgrey;
+}
+#fff {
+    margin: 4%;
+    display: flex;
+}
+
+
+.footer-fin{
+    display: flex;
+    height: 70px;
+    position: relative;
+    
+    color: dimgrey;
+    background-color: rgb(147, 234, 7);
+}
+.footer-fin #ff1{
+    margin-right: auto;
+}
+.footer-fin #ff2{
+    margin-right: 20px;
+}
+.footer-fin #ff3{
+    margin-right: 60px;
+}
