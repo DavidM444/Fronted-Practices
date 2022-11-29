@@ -24,8 +24,7 @@ header h1{
     margin-top: 3%;
     margin-left: 10%;
     font-size: 34px;
-    height: 93px;
-   
+    height: 93px;  
 }
 
 header .menu{
@@ -39,8 +38,6 @@ header .menu{
     position: relative;
     display: flex;
     margin-right: 90px;
-    
-
 }
 
 .menu ul li{
@@ -56,11 +53,14 @@ header .menu{
     background-color: rgb(255, 255, 255);
 }
 .menu span{
+    font-weight: 600;
     font-size: 30px;
     margin-top: 40px;
-    margin-right: 23px;
-    color: rgb(88, 88, 88);
-  
+    margin-right: 19px;
+    color: rgb(88, 88, 88);   
+}
+.menu ul li a:link{
+    text-decoration: none;
 }
 .menu span:hover{
     background-color: #0F2BA4
@@ -69,12 +69,6 @@ header .menu{
     color: white;
    
 }
-
-
-
-
-
-
 
 .Fight-Virus{
     display: flex;
@@ -110,9 +104,6 @@ header .menu{
  font-weight: 500;
  color:#153462;
  margin-left: 20px;
- 
-
- 
 }
 #first-block span h2{
      color:#153462;
@@ -128,21 +119,20 @@ header .menu{
 #schedule{
     display: flex;
     width: auto;
-    height: 20%;
+    height: 190px;
     position:absolute;
     background-color: rgb(224, 233, 240);
     margin: 30px;
     border-radius: 7px;
-
+    box-shadow:0px 5px rgb(167, 209, 251);
 }
+
 #schedule #sc1{
     display: flex;
     margin-top: 55px;
     margin-left: 20px;
-    
-    
-    
 }
+
 #sc1 img{
     margin-right: 10px;
 }
@@ -153,11 +143,9 @@ header .menu{
     color: dimgrey;
     font-size: 27px;
     font-weight: 500;
-    margin-left: 20px;
-   
-   
-    
+    margin-left: 20px;    
 }
+
 #first-block #schedule h1{
     color: var(--c3);
     font-size: 30px;
@@ -179,34 +167,19 @@ header .menu{
     margin-right: auto;
 }
 
-    
-
-
-
-
-
-
-
-
-
 .empresas {
-    background-color: rgb(232, 241, 238);
+    
     display: flex;
-    text-align: center;
-    height: 200px;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.empresas .emp img{
+    height: 200px;
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+}
 
 .why-should{
     margin: 5%;
@@ -222,7 +195,7 @@ header .menu{
     color: dimgray;
     font-size: 22px;
     font-weight: 500;
-    width: 45%;
+    width: 700px;
     line-height: 40px;
 }
 .why-should .w1{
@@ -270,8 +243,6 @@ header .menu{
 .preparations h1{
     color: #153462;
     font-size: 45px;
-    
-   
 }
 .preparations p{
     color: dimgrey;
@@ -312,9 +283,6 @@ header .menu{
 #prep-before .p1{
     margin-top: 30px;
 }
-
-
-
 
 .Emergency-contact {
     display: flex;
@@ -399,11 +367,6 @@ header .menu{
     margin-top: 20%;
     margin-left: auto;
 }
-
-
-
-
-
 .footer1 {
     background-color: rgb(224, 233, 240);
     display: flex;
@@ -448,7 +411,6 @@ header .menu{
     margin-left: auto;
 }
 
-
 .footer-fin{
     display: flex;
     height: 70px;
@@ -469,6 +431,5 @@ header .menu{
 }
 .footer-fin #ff1 #ff2 #ff3, h3{
     font-size: 19px;
-    font-weight: 500;
-  
+    font-weight: 500; 
 }
