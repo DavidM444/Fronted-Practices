@@ -16,30 +16,28 @@
     --c3: #153462;
 }
 header {
-    background-color: rgb(245, 240, 240);
     display: flex;
 }
 header h1{
-    background-color: rgb(248, 253, 253);
     color: #2a5de9;
     margin-right: auto;
     margin-top: 3%;
-    margin-left: 13%;
+    margin-left: 10%;
     font-size: 34px;
-    height: 93px;
+    height: 93px;  
 }
 
 header .menu{
-    background-color: rgb(55, 221, 221);
+    background-color: rgb(193, 223, 249);
     position: relative;
     display: flex;
     margin-left: auto;
-}
+  }
+     
 .menu ul{
     position: relative;
     display: flex;
     margin-right: 90px;
-    
 }
 
 .menu ul li{
@@ -54,33 +52,45 @@ header .menu{
 .menu ul #menu-li {
     background-color: rgb(255, 255, 255);
 }
-
-
-
-
-
-
+.menu span{
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-right: 19px;
+    color: rgb(88, 88, 88);   
+}
+.menu ul li a:link{
+    text-decoration: none;
+}
+.menu span:hover{
+    background-color: #0F2BA4
+;
+    padding: 20px;
+    color: white;
+   
+}
 
 .Fight-Virus{
     display: flex;
-    background-color: rgb(232, 241, 238);
 }
 
 .Fight-Virus #first-block{
-    background-color: rgb(232, 241, 238);
-    margin-left: 13%;
+    margin-left: 10%;
     margin-top: 7%;
     
 }
 .Fight-Virus #first-block h1{
     
     color: var(--c3);
-    font-size: 72px;
+    font-size: 78px;
+    line-height: 120%;
 }
 .Fight-Virus #first-block p{
     color: dimgrey;
     font-weight:500;
     font-size: 23px;
+    line-height: 180%;
+    margin-top: 5%;
 
 }
 .Fight-Virus #first-block span{
@@ -94,14 +104,12 @@ header .menu{
  font-weight: 500;
  color:#153462;
  margin-left: 20px;
- 
-
- 
 }
 #first-block span h2{
      color:#153462;
      font-weight: 600;
      margin-left: 30px;
+     font-size: 28px;
 }
 
 #vs1{
@@ -110,21 +118,21 @@ header .menu{
 }
 #schedule{
     display: flex;
-    width: 58%;
-    height: 30%;
+    width: auto;
+    height: 190px;
     position:absolute;
-    background-color: #d3ede9;
+    background-color: rgb(224, 233, 240);
     margin: 30px;
-
+    border-radius: 7px;
+    box-shadow:0px 5px rgb(167, 209, 251);
 }
+
 #schedule #sc1{
     display: flex;
-    margin-top: 40px;
+    margin-top: 55px;
     margin-left: 20px;
-    
-    
-    
 }
+
 #sc1 img{
     margin-right: 10px;
 }
@@ -133,13 +141,11 @@ header .menu{
 }
 #schedule #sc1 h2{
     color: dimgrey;
-    font-size: 25px;
+    font-size: 27px;
     font-weight: 500;
-    margin-left: 20px;
-   
-   
-    
+    margin-left: 20px;    
 }
+
 #first-block #schedule h1{
     color: var(--c3);
     font-size: 30px;
@@ -148,50 +154,35 @@ header .menu{
 }
 #schedule button{
     color: aliceblue;
-    background-color: rgb(75, 14, 218);
+    background-color: rgb(50, 44, 233);
     height: 80px;
     width: 200px;
     font-weight: 500;
     font-size: 25px;
     border-radius: 5%;
     margin-left: 30px;
+    margin-right: 40px;
 }
 #first-block{
     margin-right: auto;
 }
 
-    
-
-
-
-
-
-
-
-
-
 .empresas {
-    background-color: rgb(232, 241, 238);
+    
     display: flex;
-    text-align: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+}
+.empresas .emp img{
     height: 200px;
+    justify-content: center;
+    width: 400px;
+    height: 300px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .why-should{
-    background-color: rgb(232, 241, 238);
-    margin: 6%;
+    margin: 5%;
     margin-left: 11%;
     position: relative;
 }
@@ -201,12 +192,15 @@ header .menu{
     
 }
 .why-should p{
-    color: rgb(99, 4, 4);
+    color: dimgray;
     font-size: 22px;
-    width: 45%;
+    font-weight: 500;
+    width: 700px;
+    line-height: 40px;
 }
 .why-should .w1{
     display: flex;
+    margin-top: 8%;
     
 }
 .why-should .w1 h2{
@@ -215,29 +209,33 @@ header .menu{
 }
 .why-should .w1 p{
     color: dimgrey;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
     display: flex;
     width: auto;
+    margin-top: 20px;
 }
 .why-should .w1 .w22{
     position: relative;
     width: 215px;
     margin: 20px;
+    margin-right: 100px;
+    
+    
 }
 .why-should .w1 .w22 h2{
     display: flex;
+    margin-top: 25px;
+    font-weight: 500;
+}
+.w22 img{
+    background-color: rgb(189, 205, 221);
+    padding: 13px;
 }
 
 
-
-
-
-
-
-
-
 .preparations {
-    background-color: rgb(232, 241, 238);
     display: flex;
     margin-right: 6%;
     margin-top: 6%;
@@ -249,36 +247,47 @@ header .menu{
 .preparations p{
     color: dimgrey;
     font-size: 22px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 5%;
 }
-.preparations #f1{
-    background-color: darkred;
+
+#prep-before{
+    margin-left: 6%;
+}
+#prep-before .p1{
+    margin-left: 3%;
 }
 #prep-before .p1 p{
     color: dimgrey;
     font-size: 18px;
+    margin-left: 12%;
 }
 .p1 h2{
     color: var(--c3);
+    margin-top: 4%;
+    font-weight: 500;
+    font-size: 20px;
+}
+.s5{
+    display: flex;
+    margin-left: 3%;
+}
+.s5 img{
+    height: 40px;
+    width: 40px;
+    margin-top: 4%;
+    margin-right: 3%;
+    
 }
 #prep-before .p1{
     margin-top: 30px;
 }
 
-
-
-
-
-
-
-
-
-
 .Emergency-contact {
-    background-color: rgb(232, 241, 238);
     display: flex;
     margin: auto;
 }
-
 
 .emergency1 {
     margin-top: 11%;
@@ -288,74 +297,98 @@ header .menu{
 }
 .emergency1 #emr {
     display: flex; 
-    
     margin-top: 20%;
-    background-color: #121419;
-    height: 50%;
-    width: 40%;
-    
+    background-color: rgb(252, 255, 255);
+    position: relative;
+    flex-wrap: wrap;
+    height: auto;
 }
 .emergency1 h1{
     color: var(--c3);
     font-size: 54px;
    
+   
     
 }
 .emergency1 p{
     margin-top: 20px;
-    color: rgb(14, 110, 11);
+    color: dimgray;
     font-size: 23px;
     width: 84%;
+    line-height: 40px;
+    font-weight: 500;
 }
 
 
 .emergency1 #emr .ec1{
     
-    margin-right: 30px;
-    background-color: chartreuse;
-    margin: auto;
-    margin-left: 20%;
-    margin-top: 30px;
-    float: right;
-   
+    position: relative;
+    
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 10%;
+    
 }
 .emergency1 .ec1 h2{
     color: var(--c3);
-    font-size: 33px;
+    font-size: 30px;
+    margin-left: 30px;
+    font-weight: 500;
 }
 .emergency1 .ec1 h3{
     color: var(--c3);
+    font-weight: 350;
+    font-size: 17px;
+    
+    margin-left: 50px;
 }
+    
 .emergency1 .ec1 button{
     color: var(--c3);
-    background-color: #75f6e5;
-    
-}
-#emergency-img{
+    background-color: rgb(224, 233, 240);
+    border: transparent;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
     margin-top: 20%;
+    padding: 10px;
+    border-radius: 6px;
 }
-
-
-
-
-
-.footer1 {
-    background-color: rgb(232, 241, 238);
+.ec1 button:hover{
+    background-color: #124693;
+    color: white;
+}
+.ec1-1 {
     display: flex;
 }
+
+#emergency-img{
+    margin-top: 20%;
+    margin-left: auto;
+}
+.footer1 {
+    background-color: rgb(224, 233, 240);
+    display: flex;
+    margin-top: 6%;
+}
 .vacci {
-    margin: auto;
+   margin-top: 5%;
     margin-left: 30px;
     
 }
 .vacci h2 {
-    color: var(--c1);
-    margin-left: 30%;
+    color: #0F2BA4;
+    margin-left: 20%;
+    font-size: 36px;
     
 }
 .vacci p{
     color: dimgrey;
-    margin-left: 30%;
+    margin-left: 20%;
+    font-size: 20px;
+    width: 40%;
+    font-weight: 500;
 }
 .f1l{
     display: flexbox;
@@ -364,30 +397,39 @@ header .menu{
 }
 .f1l h3{
     color: var(--c3);
+    font-size: 30px;
 }
 .f1l h4{
     color: dimgrey;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 16px;
 }
 #fff {
-    margin: 4%;
+    margin: 5%;
     display: flex;
+    margin-left: auto;
 }
-
 
 .footer-fin{
     display: flex;
     height: 70px;
     position: relative;
-    
     color: dimgrey;
-    background-color: rgb(147, 234, 7);
+    background-color: rgb(224, 233, 240);
 }
 .footer-fin #ff1{
     margin-right: auto;
+    margin-left: 110px;
+
 }
 .footer-fin #ff2{
-    margin-right: 20px;
+    margin-right: 30px;
 }
 .footer-fin #ff3{
-    margin-right: 60px;
+    margin-right: 120px;
+}
+.footer-fin #ff1 #ff2 #ff3, h3{
+    font-size: 19px;
+    font-weight: 500; 
 }
