@@ -58,15 +58,27 @@ const poketype = (types) =>{
 
 }
 const pokestatics = (stats) => {
-    let pokestat = document.getElementById("info-statics")
+    let pokestat = document.getElementById("pstat")
     let statics = stats.map((item)=> item.stat.name)
     console.log('statics',statics)
     pokestat.innerHTML = statics
 
 
 }
+const open_stat = document.getElementById("open_stat");
+const v_stat = document.getElementById("v_stat");
+const close_stat= document.getElementById("close_stat");
+
+open_stat.addEventListener('click',()=>{
+    v_stat.classList.add('show');
+   
+});
+
+close_stat.addEventListener('click',()=>{
+    v_stat.classList.remove('show');
+})
 const pokemovement = (moves) => {
-    let pokemov = document.getElementById("info-movement")
+    let pokemov = document.getElementById("pmodel")
     let movements = moves.map((item)=> item.move.name)
     console.log('moves',movements)
     pokemov.innerHTML = movements
@@ -74,3 +86,15 @@ const pokemovement = (moves) => {
 
 }
 
+const open = document.getElementById("open");
+const v_modal = document.getElementById("v_modal");
+const close = document.getElementById("close");
+
+open.addEventListener('click',()=>{
+    v_modal.classList.add('show');
+   
+});
+
+close.addEventListener('click',()=>{
+    v_modal.classList.remove('show');
+})

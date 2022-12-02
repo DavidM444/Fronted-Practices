@@ -10,7 +10,6 @@
 --leaf-green: #004846;
 --light-leaf-green: #008477;
 --blue: #2D77F9;
---dark-blue: #0530E5;
 --turquoise: #A9E9F7;
 --dark-turquoise: #1DC6EC;
 --sky: #A0F2FA;
@@ -19,7 +18,6 @@
 --yellow: #FFFF00;
 --light-yellow: #FBFB8A;
 --dark-yellow: #FFAB00;
---sun: #FA9A05;
 --dark-sun: #FF9300;
 --orange: #FF9B5B;
 --dark-orange: #F66C1F;
@@ -41,12 +39,22 @@ html, body {
     background-image: url('./assets_pode/back.jpg');
     background-size: cover;
   }
-
+h1{ 
+  position: relative;
+  margin: 0px 0px 530px 30px;
+  font-size: 50px;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--red);
+  margin-left: 100%;
+}
 #pokedex {
-  margin: 150px auto auto auto;
+  margin: 80px auto auto auto;
   width: 750px;
   height: 500px;
 }
+
+
 
 #left {
   position: relative;
@@ -145,7 +153,6 @@ html, body {
   position: absolute;
   z-index: 110;
   margin: 0px auto auto 0px;
-  background-color: var(--green);
   width: 230px;
   height: 100px;
   border-bottom-right-radius: 100px;
@@ -157,7 +164,6 @@ html, body {
   position: absolute;
   z-index: 100;
   margin: 50px auto auto 150px;
-  background-color: var(--yellow);
   width: 200px;
   height: 200px;
   border-top-left-radius: 120px;
@@ -262,7 +268,7 @@ html, body {
 
 
 #triangle {
-  background-color: var(--blue);
+  
   position: absolute;
   z-index: 120;
   margin: 315px auto auto 25px;
@@ -300,7 +306,6 @@ html, body {
 }
 
 #button-bottom {
-  @include linear-gradient(var(--red), var(--burgundy));
   position: absolute;
   z-index: 130;
   margin: 178px auto auto 50px;
@@ -313,7 +318,7 @@ html, body {
 
 #button-bottom:active {
   box-shadow: none;
-  @include linear-gradient(darken(var(--red), 40%), var(--red));
+  
   box-shadow: 0px 0px 10px 3px darken(var(--red), 10%) inset;
   border: var(--black) solid 1px;
 }
@@ -330,12 +335,12 @@ html, body {
 #square-button-left {
   position: absolute;
   z-index: 130;
-  margin: 380px auto auto 100px;
+  margin: 380px auto auto 90px;
   border-radius: 10px;
   height: 55px;
   width: 215px;
- 
-  background-color: var(--light-leaf-green);
+  border: 3px solid var(--charcoal);
+  background-color: var(--grey);
 }
 
 #nb {
@@ -355,13 +360,17 @@ html, body {
     height: 10px;
     width: auto;
     z-index: 130;
-    
     margin: 440px auto auto 100px;
 }
 #text-i button{
     box-shadow: 0 0 14px var(--leaf-green) inset;
+    background-color: var(--light-yellow);
     width: 120px;
+    font-size: 20px;
+    margin: 10px;
     color: #8B0000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 
 
@@ -372,84 +381,194 @@ html, body {
     
     position: absolute;
     z-index: 130;
-    margin: 50px auto auto 30px;
+    margin: 25px auto auto 30px;
     border-radius: 10px;
-    height: 420px;
+    height: 375px;
     width: 290px;
     box-shadow: 0 0 20px var(--dark-green) inset, 0px 0px 1px 1px darken(var(red), 20%) ;
-    background-color: var(--green);
+    background-color: var(--burgundy);
    
     color: darken(var(--dark-green), 5%);
     font-size: 1.2em;
     
-    flex-direction: column;
+
   }
 
 #name{
     display: flex;
    
     z-index: 130;
-    background-color: #1DC6EC;
-    height: 40px;
+    background-color: var(--yellow);
+    height: 30px;
     width: 160px;
-    margin: 0px auto auto 0px;
+    margin: 8px auto auto 15px;
+    text-align: center;
+    border: 3px solid var(--red);
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 #especificaciones{
     display: flex;
-    position: relative;
+    position: absolute;
 
     z-index: 130;
     background-color: #ec3c1d;
     height: 130px;
     width: 160px;
-    margin: 0px auto auto 0px;
+    margin: 10px auto auto 0px;
+   
 }
 
 #type-pokemon{
     display: flex;
     position: absolute;
-   
-    
+    font-size: small;
     justify-content: center;
     align-items: center;
     z-index: 130;
-    background-color: #ec3c1d;
-    height: 50px;
-    width: 100px;
-    margin: 50px auto auto 0px;
+    background-color: var(--yellow);
+    height: auto;
+    width: auto;
+    margin: 60px auto auto 15px;
+    border: 3px solid var(--red);
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
     
 }
 
 #info-statics{
     display: flex;
     position: absolute;
-   
-    
+    font-size: small; 
     justify-content: center;
     align-items: center;
     z-index: 130;
-    background-color: #5d3196;
-    height: 50px;
-    width: 80px;
-    margin: 50px auto auto 110px;
-    
-}
-#info-movement{
-    display: flex;
-    position: absolute;
-    
-    justify-content: center;
-    align-items: center;
-    z-index: 130;
-    background-color: #1d46ec;
-    height: 50px;
-    width: 80px;
-    margin: 310px auto auto 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 80px auto auto 0px;
     
 }
 
+.v_stat{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  pointer-events: none;
+  opacity: 0;
+  width: 280px;
+  margin: 50px 0px 0px 205px;
+  z-index: 140;
+
+}
+.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+.modal_stat{
+  background-color: var(--yellow);
+  width: 200px;
+  text-align: justify;
+  margin-left: 90px;
+  border:3px solid var(--red)
+
+}
+
+.modal_stat p{
+  
+  margin-top: auto;
+  
+}
+.modal_stat #close_stat{
+  background-color: var(--dark-turquoise);
+  margin-left: 70%;
+}
+#info-movement{
+    display: flex;
+    position:absolute;
+    
+    justify-content: center;
+    align-items: center;
+    z-index: 130;
+    background-color: transparent;
+    margin: 150px auto auto 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+} 
+#open, #open_stat{
+  background-color: var(--charcoal);
+  margin: 15px;
+  border: 3px solid var(--black);
+  color: white;
+
+  
+}
+.v_modal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  pointer-events: none;
+  opacity: 0;
+  background-color: var(--yellow);
+  width: 270px;
+  margin: 60px 0px 0px 175px;
+  border: 3px solid var(--red)
+
+}
+#close{
+  background-color: #A0F2FA;
+  margin-left: 40%;
+}
+
+.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+.modal p{
+  background-color: transparent;
+  width: 260px;
+  text-align: center;
+  word-wrap: break-word;
+  font-size: 12px;
+  font-weight: 300;
+}
+.modal button{
+  text-align: center;
+}
+
+.boxes {
+  display: flex;
+  position: absolute;
+  height: 30px;
+  width: 150px;
+
+
+  margin: 200px 0 0 67px;
+}
+.boxes2 {
+  position: absolute;
+  display: flex;
+  height: 30px;
+  width: 150px;
+  margin: 240px 0 0 67px;
+
+}
+
+.box {
+  position: relative;
+  display: flex;
+  height: 30px;
+  width: 30px;
+  background-color: #137604;
+  border-radius:  20%;
+  border: 4px solid var(--yellow);
+  color: var(--dark-black);
+  font-weight: 600;
+}
 
 
 
