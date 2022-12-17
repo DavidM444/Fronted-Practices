@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PokedeX</title>
-    <link rel="stylesheet" href="./pokestyle.css">
-    <script src="./pokeapi.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PokedeX</title>
+  <link rel="stylesheet" href="./pokestyle.css">
+<script src="/pokeapi.js" defer></script>
 </head>
+
 <body>
 
     <section>
@@ -45,7 +46,7 @@
             <input id="nb" type="text" placeholder="Pokemon" name="nb">
           </div>
            <div id="text-i">
-                <button type="submit" onclick="fetchPokemon()">Seach</button>
+                <button type="submit" onclick="fetchPokemon()">Search</button>
           </div>
 
 
@@ -59,23 +60,60 @@
           </div>
         <div id="right">
           <div id="info-screen">
-            <div id="name" > </div>
-            <div id="type-pokemon" ></div>
-            <div id="info-statics"></div>
-            <div id="info-movement"></div>
+            <div id="name" >Name</div>
+            <div id="type-pokemon" >Type</div>
+
+
+
+
+            <div id="info-statics">
+              <button id="open_stat">Stats</button>
+              <div class="v_stat" id="v_stat">
+                <div class="modal_stat">
+                 
+                  <p  id="pstat">
+                  </p>
+                  <button id="close_stat">Close</button>
+                </div>
+              </div>
+            </div>
+
+
+            <div id="info-movement">
+              <button id="open">Movements</button>
+              <div class="v_modal" id="v_modal">
+                <div class="modal">
+                  <p id="pmodel">
+                  </p>
+                  <button id="close">Close</button>
+                </div>
+              </div>
+
+            </div>
+            <div class="boxes">
+              <div class="box">0</div>
+              <div class="box">1</div>
+              <div class="box">2</div>
+              <div class="box">3</div>
+              <div class="box">4</div>
+            </div>
+            <div class="boxes2">
+              <div class="box">5</div>
+              <div class="box">6</div>
+              <div class="box">7</div>
+              <div class="box">8</div>
+              <div class="box">9</div>
+            </div>
         
           </div>
-  
-        
-         
         </div>
           <div id="top-right1"></div>
-          <div id="top-right2"></div>
+  
       </div>
     </section>
     
 </body>
-<footer>
 
-</footer>
+
+
 </html>
